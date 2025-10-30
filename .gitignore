@@ -1,0 +1,44 @@
+# MCP Secrets - NUNCA COMMITAR!
+.env.mcp
+.claude/mcp.secrets.json
+.claude/mcp.json
+
+# Node modules
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.vs/
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak

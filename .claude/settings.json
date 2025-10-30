@@ -1,0 +1,19 @@
+{
+  "diffView": "auto",
+  "autoUpdate": false,
+  "model": "claude-sonnet-4",
+  "hooks": {
+    "on-stop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -Command \"[console]::beep(800,300); Write-Host '✅ Tarefa concluída!' -ForegroundColor Green\""
+          }
+        ]
+      }
+    ]
+  },
+  "customCommands": {}
+}

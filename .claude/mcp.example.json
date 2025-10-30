@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "sequential-thinking": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"],
+      "env": {}
+    },
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "SEU_TOKEN_AQUI"
+      },
+      "_comment": "Token: https://github.com/settings/tokens - Scopes: repo, workflow"
+    },
+    "brave-search": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-brave-search"],
+      "env": {
+        "BRAVE_API_KEY": "SUA_CHAVE_AQUI"
+      },
+      "_comment": "API Key: https://brave.com/search/api/ - Tier gratuito: 2000 queries/mês"
+    }
+  },
+  "_instructions": "Para adicionar GitHub ou Brave Search, copie a seção correspondente para mcp.json e adicione seus tokens"
+}
