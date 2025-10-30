@@ -42,3 +42,8 @@ tmp/
 temp/
 *.tmp
 *.bak
+
+# Git submodules/internal repos (prevent nested .git folders)
+agents/.git/
+awesome-claude-code-subagents/.git/
+claude-code-subagents/.git/
